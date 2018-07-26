@@ -1,0 +1,73 @@
+html{
+	height: 100%;
+}
+body{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	height: 100%;
+	background-color: #fefefe;
+}
+
+h2, pre, h1{
+	margin: 0;
+}
+
+.Page{
+	margin: 30px;
+	background-color: #fafafa;
+	height: 100%;
+	border: 1px solid #000;
+}
+header{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+
+	height: 70px;
+	width: 100%;
+	background-color: #fdfdfd;
+}
+.main-content{
+	padding: 30px;
+}
+code{
+	padding: 0;
+	margin: 0;
+	display: block;
+	border:1px solid red;
+	border-left: 4px solid red;
+	background-color: #eee;
+}
+code .code-row{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	flex-flow: row nowrap;
+}
+.code-row .number{
+	width: 20px;
+	text-align: right;
+	background-color: #999;
+	border-right: 2px solid #	777 ;
+}
+.code-row .content{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	-ms-align-items: flex-end;
+	align-items: flex-end;
+}
+.blue{color: blue;}
+.red{color: red;}
+.violet{color:violet;}
